@@ -61,7 +61,7 @@
   h2,
   h3,
   h4 {
-    @apply scroll-m-20 tracking-tight;
+    @apply scroll-m-20 tracking-tight text-balance;
   }
   h1 {
     @apply text-4xl font-extrabold lg:text-6xl;
@@ -74,5 +74,16 @@
   }
   h4 {
     @apply text-xl font-semibold;
+  }
+}
+
+@layer utilities {
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
