@@ -69,7 +69,7 @@ module.exports = {
         },
       },
       fontFamily: {
-        sans: ['Outfit', ...defaultTheme.fontFamily.sans],
+        sans: ['Inter', ...defaultTheme.fontFamily.sans],
       },
       borderRadius: {
         lg: 'var(--radius)',

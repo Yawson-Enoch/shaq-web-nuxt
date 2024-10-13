@@ -118,7 +118,7 @@
       <!-- copyright section -->
       <div class="flex items-center gap-x-3 justify-center">
         <CopyrightIcon />
-        <p>2024 ShaQApp All rights reserved</p>
+        <p class="text-pretty">2024 ShaQApp All rights reserved</p>
       </div>
     </div>
   </footer>

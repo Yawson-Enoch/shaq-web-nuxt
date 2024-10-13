@@ -102,7 +102,11 @@ watch(
                   <template v-for="link of links" :key="link.label">
                     <li v-if="link.label !== 'Home'">
                       <SheetClose>
-                        <NuxtLink :to="link.to" class="font-medium">
+                        <NuxtLink
+                          :to="link.to"
+                          class="font-medium"
+                          active-class="text-primary underline"
+                        >
                           {{ link.label }}
                         </NuxtLink>
                       </SheetClose>
