@@ -58,7 +58,7 @@
       <NuxtImg src="/payment.png" />
       <div>
         <h2>Why do business with ShaQApp</h2>
-        <div class="mt-4 md:mt-8 gap-y-3 md:gap-y-6 grid">
+        <div class="mt-7 md:mt-14 gap-y-6 md:gap-y-12 grid">
           <div class="gap-x-2 md:gap-x-4 grid grid-cols-[auto_1fr]">
             <div
               class="size-6 md:size-8 rounded-full bg-primary text-white flex items-center justify-center"
@@ -92,7 +92,7 @@
                 Grow Together
               </p>
               <li class="mt-2 md:mt-4 text-muted-foreground max-w-[36rem]">
-                With ShaQ App, you gain access to valuable resources, dedicated
+                With ShaQApp, you gain access to valuable resources, dedicated
                 support, and a network that fosters collaboration and continuous
                 improvement, ensuring that your business thrives..
               </li>

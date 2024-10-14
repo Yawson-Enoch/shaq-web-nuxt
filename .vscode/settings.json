@@ -1,3 +1,8 @@
 {
-  "tailwindCSS.classAttributes": ["class", "active-class", "exact-active-class"]
+  "tailwindCSS.classAttributes": [
+    "class",
+    "active-class",
+    "exact-active-class"
+  ],
+  "typescript.tsdk": "node_modules/typescript/lib"
 }
