@@ -288,7 +288,7 @@ const isShowMore = ref(false);
     <div
       class="container flex flex-col gap-y-8 md:grid md:grid-cols-[auto_max-content] gap-x-8 lg:gap-x-20 xl:gap-x-40 md:place-items-center"
     >
-      <NuxtImg src="//rider-delivery.png" />
+      <NuxtImg src="/rider-delivery.png" />
       <div>
         <h2>Delivering with Purpose</h2>
         <p class="text-muted-foreground mt-3 md:mt-6 max-w-[42rem]">

@@ -31,6 +31,10 @@ const links = [
   },
 ];
 
+const { hasDarkBg = false } = defineProps<{
+  hasDarkBg?: boolean;
+}>();
+
 const open: Ref<boolean> = ref(false);
 
 const isLargeScreen = useMediaQuery('(min-width: 768px)');
@@ -52,14 +56,23 @@ watch(
     <div class="flex justify-between items-center h-20 container">
       <!-- logo -->
       <NuxtLink to="/">
-        <NuxtImg src="/shaq-app-logo-dark.png" alt="ShaQApp Logo" />
+        <NuxtImg
+          :src="
+            hasDarkBg ? '/shaq-app-logo-light.png' : '/shaq-app-logo-dark.png'
+          "
+          alt="ShaQApp Logo"
+        />
       </NuxtLink>
       <!-- links and cta -->
       <nav>
         <ul class="flex gap-x-4 md:gap-x-8 items-center max-md:hidden">
           <template v-for="link of links" :key="link.label">
             <li v-if="link.label !== 'Home'">
-              <NuxtLink :to="link.to" active-class="text-primary underline">
+              <NuxtLink
+                :to="link.to"
+                :class="[hasDarkBg ? 'text-white' : 'text-foreground']"
+                active-class="!text-primary underline"
+              >
                 {{ link.label }}
               </NuxtLink>
             </li>
