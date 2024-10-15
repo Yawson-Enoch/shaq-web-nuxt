@@ -4,7 +4,7 @@ import { LoaderIcon } from 'lucide-vue-next';
 import { useForm } from 'vee-validate';
 import * as z from 'zod';
 
-// create the form
+/* create the form - with zod schema */
 const { defineField, handleSubmit, isSubmitting, errors } = useForm({
   validationSchema: toTypedSchema(
     z.object({
@@ -13,10 +13,10 @@ const { defineField, handleSubmit, isSubmitting, errors } = useForm({
   ),
 });
 
-// define fields
-const [email, emailProps] = defineField('email');
+/* define fields */
+const [email, emailField] = defineField('email');
 
-// submit handler
+/* submit handler */
 const onSubmit = handleSubmit((values) => {
   console.log(values);
 });
@@ -24,7 +24,8 @@ const onSubmit = handleSubmit((values) => {
 
 <template>
   <form
-    @submit="onSubmit"
+    novalidate
+    @submit.prevent="onSubmit"
     class="relative content-[''] after:absolute after:inset-0 after:-z-10 after:bg-[#ACE4AA] bg-[url('/pattern.png')] pt-8 md:pt-16 pb-20 md:pb-40"
   >
     <div
@@ -39,17 +40,14 @@ const onSubmit = handleSubmit((values) => {
             placeholder="Enter your email address"
             type="email"
             v-model="email"
-            v-bind="emailProps"
+            v-bind="emailField"
           />
           <Button
             variant="plain"
             :disabled="isSubmitting"
             class="rounded-sm bg-[#f0f0eb] md:h-16 md:text-xl md:px-12"
           >
-            <LoaderIcon
-              v-if="isSubmitting"
-              class="animate-spin size-4 md:size-8"
-            />
+            <LoaderIcon v-if="isSubmitting" class="animate-spin" />
             <template v-else>Subscribe</template>
           </Button>
         </div>
