@@ -2,6 +2,12 @@
 definePageMeta({
   layout: false,
 });
+
+useSeoMeta({
+  title: 'About Us',
+  description:
+    'We take immense pride in our exceptional software and operations teams that work together seamlessly to build our revolutionary super app.',
+});
 </script>
 
 <template>

@@ -1,3 +1,5 @@
+const siteUrl = `http://localhost:3000`;
+
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -9,6 +11,12 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@vueuse/nuxt',
   ],
+
+  runtimeConfig: {
+    public: {
+      siteUrl,
+    },
+  },
 
   shadcn: {
     /**

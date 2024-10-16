@@ -34,6 +34,12 @@ const onSubmit = handleSubmit((values) => {
   console.log(values);
   resetForm();
 });
+
+useSeoMeta({
+  title: 'Contact Us',
+  description:
+    'Reach out to us for all your product enquires, order follow up and enquiries on working with us.',
+});
 </script>
 
 <template>

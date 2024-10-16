@@ -7,6 +7,12 @@ import {
 } from '@/components/ui/accordion';
 
 const isShowMore = ref(false);
+
+useSeoMeta({
+  title: 'Riders',
+  description:
+    'Delivering smiles and cashing in on your journey—join us as a rider and make every delivery a rewarding adventure!',
+});
 </script>
 
 <template>

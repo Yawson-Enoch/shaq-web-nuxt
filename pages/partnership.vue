@@ -1,3 +1,11 @@
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Partnership',
+  description:
+    'Join ShaQApp today to take your retail shop, pharmacy, restaurant, or grocery store online with ease. Our user-friendly e-commerce platform helps you grow your business and connect with a supportive community that’s ready to help you succeed.',
+});
+</script>
+
 <template>
   <main class="pb-12 md:pb-24 space-y-16 md:space-y-32">
     <!-- hero section -->
