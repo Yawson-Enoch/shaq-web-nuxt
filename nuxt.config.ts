@@ -13,6 +13,11 @@ export default defineNuxtConfig({
     '@nuxtjs/robots',
   ],
 
+  /* SSG __ pregenerate all pages at build time */
+  routeRules: {
+    '/**': { prerender: true },
+  },
+
   /* prevent pages from being indexed by search engines */
   site: { indexable: false },
 
