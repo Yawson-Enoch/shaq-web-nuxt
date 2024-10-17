@@ -10,7 +10,11 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@vueuse/nuxt',
+    '@nuxtjs/robots',
   ],
+
+  /* prevent pages from being indexed by search engines */
+  site: { indexable: false },
 
   runtimeConfig: {
     public: {
