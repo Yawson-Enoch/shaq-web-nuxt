@@ -20,7 +20,7 @@ useSeoMeta({
             hsl(0 0% 0% / 0.5),
             hsl(0 0% 0% / 0.5)
           ),
-          url('/about-hero-image.png');
+          url('/about-hero-image.webp');
       "
     >
       <Header :has-dark-bg="true" />
@@ -51,7 +51,7 @@ useSeoMeta({
             businesses and individuals alike across Africa.
           </p>
         </div>
-        <NuxtImg src="/we-are-shaqapp.png" />
+        <NuxtImg src="/we-are-shaqapp.webp" />
       </div>
 
       <!-- what makes us the best -->
@@ -60,7 +60,7 @@ useSeoMeta({
           class="container grid place-items-center place-content-center xl:min-h-[60.625rem] py-6 md:py-12"
         >
           <h2 class="text-center">What makes us the best</h2>
-          <NuxtImg src="/what-makes-us-the-best.png" class="mt-8 md:mt-16" />
+          <NuxtImg src="/what-makes-us-the-best.webp" class="mt-8 md:mt-16" />
         </div>
       </div>
 
@@ -70,7 +70,7 @@ useSeoMeta({
         <div class="grid md:grid-cols-3 gap-8">
           <div>
             <!-- image - name - title -->
-            <NuxtImg src="/ceo.png" />
+            <NuxtImg src="/ceo.webp" />
             <p class="mt-3 md:mt-6 text-lg font-semibold">
               Anthony Owusu Ansah
             </p>
@@ -78,13 +78,13 @@ useSeoMeta({
           </div>
           <div>
             <!-- image - name - title -->
-            <NuxtImg src="/hob.png" />
+            <NuxtImg src="/hob.webp" />
             <p class="mt-3 md:mt-6 text-lg font-semibold">Rhoda Folie</p>
             <p class="text-muted-foreground">Head of Businesss</p>
           </div>
           <div>
             <!-- image - name - title -->
-            <NuxtImg src="/tm.png" />
+            <NuxtImg src="/tm.webp" />
             <p class="mt-3 md:mt-6 text-lg font-semibold">Gideon Ofori</p>
             <p class="text-muted-foreground">Tech Manager</p>
           </div>
@@ -95,7 +95,7 @@ useSeoMeta({
       <div
         class="container flex flex-col gap-y-8 md:grid md:grid-cols-[auto_max-content] gap-x-8 lg:gap-x-20 xl:gap-x-40 md:place-items-center"
       >
-        <NuxtImg src="/blur-image.png" />
+        <NuxtImg src="/blur-image.webp" />
         <div>
           <h2>We are ShaQApp</h2>
           <p class="text-muted-foreground mt-3 md:mt-6 max-w-[32.125rem]">

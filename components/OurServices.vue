@@ -41,7 +41,7 @@
         <div
           class="flex flex-col items-start lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
         >
-          <NuxtImg src="/payment.png" />
+          <NuxtImg src="/payment.webp" />
           <div class="lg:flex">
             <div class="space-y-4 md:space-y-8">
               <h3>Shop Online</h3>
@@ -55,7 +55,7 @@
             </div>
             <!-- decorative image -->
             <NuxtImg
-              src="/our-services-decorative-image.png"
+              src="/our-services-decorative-image.webp"
               class="max-xl:hidden"
             />
           </div>
@@ -65,7 +65,7 @@
         <div
           class="flex flex-col items-start lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
         >
-          <NuxtImg src="/payment.png" />
+          <NuxtImg src="/payment.webp" />
           <div class="lg:flex">
             <div class="space-y-4 md:space-y-8">
               <h3>Pharmacy</h3>
@@ -80,7 +80,7 @@
             </div>
             <!-- decorative image -->
             <NuxtImg
-              src="/our-services-decorative-image.png"
+              src="/our-services-decorative-image.webp"
               class="max-xl:hidden"
             />
           </div></div
@@ -89,7 +89,7 @@
         <div
           class="flex flex-col items-start lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
         >
-          <NuxtImg src="/payment.png" />
+          <NuxtImg src="/payment.webp" />
           <div class="lg:flex">
             <div class="space-y-4 md:space-y-8">
               <h3>Food</h3>
@@ -108,7 +108,7 @@
             </div>
             <!-- decorative image -->
             <NuxtImg
-              src="/our-services-decorative-image.png"
+              src="/our-services-decorative-image.webp"
               class="max-xl:hidden"
             />
           </div>
@@ -118,7 +118,7 @@
         <div
           class="flex flex-col items-start lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
         >
-          <NuxtImg src="/payment.png" />
+          <NuxtImg src="/payment.webp" />
           <div class="lg:flex">
             <div class="space-y-4 md:space-y-8">
               <h3>Groceries</h3>
@@ -132,7 +132,7 @@
             </div>
             <!-- decorative image -->
             <NuxtImg
-              src="/our-services-decorative-image.png"
+              src="/our-services-decorative-image.webp"
               class="max-xl:hidden"
             />
           </div>
@@ -142,7 +142,7 @@
         <div
           class="flex flex-col items-start lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
         >
-          <NuxtImg src="/payment.png" />
+          <NuxtImg src="/payment.webp" />
           <div class="lg:flex">
             <div class="space-y-4 md:space-y-8">
               <h3>Bills & Payment</h3>
@@ -157,7 +157,7 @@
             </div>
             <!-- decorative image -->
             <NuxtImg
-              src="/our-services-decorative-image.png"
+              src="/our-services-decorative-image.webp"
               class="max-xl:hidden"
             />
           </div>

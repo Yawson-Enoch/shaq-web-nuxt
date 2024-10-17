@@ -31,7 +31,7 @@ import TabsTrigger from '~/components/ui/tabs/TabsTrigger.vue';
             </Button>
           </div>
           <!-- hero image -->
-          <NuxtImg src="/hero-app-snapshot.png" alt="ShaQApp" />
+          <NuxtImg src="/hero-app-snapshot.webp" alt="ShaQApp" />
         </div>
       </div>
     </div>
@@ -57,24 +57,24 @@ import TabsTrigger from '~/components/ui/tabs/TabsTrigger.vue';
         </p>
         <Button class="mt-5 md:mt-10">Read more</Button>
       </div>
-      <NuxtImg src="/blur-image.png" />
+      <NuxtImg src="/blur-image.webp" />
     </div>
 
     <!-- download the app -->
     <div
       class="container flex flex-col-reverse gap-y-8 md:grid md:grid-cols-[1fr_max-content] gap-x-8 lg:gap-x-20 xl:gap-x-40 md:items-center"
     >
-      <NuxtImg src="/three-app-snapshots.png" />
+      <NuxtImg src="/three-app-snapshots.webp" />
 
       <div class="grid place-items-center">
-        <NuxtImg src="/qr-code-scanner.png" />
+        <NuxtImg src="/qr-code-scanner.webp" />
         <p class="text-2xl font-semibold mt-4">Download the app</p>
         <div class="flex flex-wrap gap-4 mt-5 md:mt-10 justify-center">
           <NuxtLink external to="https://app.shaqapp.com/">
-            <NuxtImg src="/appstore.png" class="rounded-sm" />
+            <NuxtImg src="/appstore.webp" class="rounded-sm" />
           </NuxtLink>
           <NuxtLink external to="https://app.shaqapp.com/">
-            <NuxtImg src="/playstore.png" class="rounded-sm" />
+            <NuxtImg src="/playstore.webp" class="rounded-sm" />
           </NuxtLink>
         </div>
       </div>
@@ -113,7 +113,7 @@ import TabsTrigger from '~/components/ui/tabs/TabsTrigger.vue';
           class="flex flex-col md:items-center lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
           value="vendors"
         >
-          <NuxtImg src="/blur-image.png" />
+          <NuxtImg src="/blur-image.webp" />
           <div>
             <h3>Grow Your Business with Our Platform</h3>
             <p class="text-muted-foreground max-w-[33.8125rem] mt-4 md:mt-8">
@@ -163,7 +163,7 @@ import TabsTrigger from '~/components/ui/tabs/TabsTrigger.vue';
           class="flex flex-col md:items-center lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
           value="riders-and-drivers"
         >
-          <NuxtImg src="/blur-image.png" />
+          <NuxtImg src="/blur-image.webp" />
           <div>
             <h3>Earn More with Us</h3>
             <p class="text-muted-foreground max-w-[33.8125rem] mt-4 md:mt-8">
@@ -213,7 +213,7 @@ import TabsTrigger from '~/components/ui/tabs/TabsTrigger.vue';
           class="flex flex-col md:items-center lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[1fr_max-content]"
           value="fleet-owners"
         >
-          <NuxtImg src="/blur-image.png" />
+          <NuxtImg src="/blur-image.webp" />
           <div>
             <h3>Earn more by partnering with Us</h3>
             <p class="text-muted-foreground max-w-[33.8125rem] mt-4 md:mt-8">

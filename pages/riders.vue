@@ -31,7 +31,7 @@ useSeoMeta({
         </p>
         <Button size="lg" class="mt-6 md:mt-12">Ride with ShaQApp</Button>
       </div>
-      <NuxtImg src="/rider-delivery.png" />
+      <NuxtImg src="/rider-delivery.webp" />
     </div>
 
     <!-- what you need to work with shaqapp -->
@@ -94,7 +94,7 @@ useSeoMeta({
     <div
       class="container flex flex-col lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[auto_max-content]"
     >
-      <NuxtImg src="/rider-app-snapshot.png" />
+      <NuxtImg src="/rider-app-snapshot.webp" />
       <div>
         <h2>How the ShaQApp rider works</h2>
         <div class="mt-7 md:mt-14 gap-y-6 md:gap-y-12 grid">
@@ -294,7 +294,7 @@ useSeoMeta({
     <div
       class="container flex flex-col gap-y-8 md:grid md:grid-cols-[auto_max-content] gap-x-8 lg:gap-x-20 xl:gap-x-40 md:place-items-center"
     >
-      <NuxtImg src="/rider-delivery.png" />
+      <NuxtImg src="/rider-delivery.webp" />
       <div>
         <h2>Delivering with Purpose</h2>
         <p class="text-muted-foreground mt-3 md:mt-6 max-w-[42rem]">
@@ -310,7 +310,7 @@ useSeoMeta({
     <!-- download the riders' app -->
     <div class="grid place-items-center">
       <h2 class="text-center">Download the app and start earning</h2>
-      <NuxtImg src="/qr-code-scanner.png" class="mt-5 md:mt-10" />
+      <NuxtImg src="/qr-code-scanner.webp" class="mt-5 md:mt-10" />
       <div class="grid place-items-center mt-4 md:mt-8 text-center">
         <p>Scan to download</p>
         <p>Or</p>
@@ -318,10 +318,10 @@ useSeoMeta({
       </div>
       <div class="flex flex-wrap gap-4 mt-5 md:mt-10 justify-center">
         <NuxtLink external to="https://app.shaqapp.com/">
-          <NuxtImg src="/appstore.png" />
+          <NuxtImg src="/appstore.webp" />
         </NuxtLink>
         <NuxtLink external to="https://app.shaqapp.com/">
-          <NuxtImg src="/playstore.png" />
+          <NuxtImg src="/playstore.webp" />
         </NuxtLink>
       </div>
     </div>

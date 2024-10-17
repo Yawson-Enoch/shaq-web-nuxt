@@ -25,7 +25,7 @@ useSeoMeta({
           </p>
           <Button size="lg" class="mt-6 md:mt-12">Become a vendor</Button>
         </div>
-        <NuxtImg src="/partnership-hero.png" />
+        <NuxtImg src="/partnership-hero.webp" />
       </div>
     </div>
 
@@ -33,14 +33,14 @@ useSeoMeta({
 
     <!-- download the app -->
     <div
-      class="relative content-[''] after:absolute after:inset-0 after:-z-10 after:bg-[#DFEDD7] bg-[url('/bg-pattern.png')] py-12 md:py-24"
+      class="relative content-[''] after:absolute after:inset-0 after:-z-10 after:bg-[#DFEDD7] bg-[url('/bg-pattern.webp')] py-12 md:py-24"
     >
       <div
         class="container flex flex-col-reverse gap-y-8 md:justify-center md:grid md:grid-cols-[auto_max-content] gap-x-8 lg:gap-x-20 xl:gap-x-40 md:place-items-center"
       >
         <div class="grid place-items-center">
           <h2 class="text-center">Download the vendor app</h2>
-          <NuxtImg src="/qr-code-scanner.png" class="mt-5 md:mt-10" />
+          <NuxtImg src="/qr-code-scanner.webp" class="mt-5 md:mt-10" />
           <div class="grid place-items-center mt-4 md:mt-8">
             <p>Scan to download</p>
             <p>Or</p>
@@ -48,14 +48,14 @@ useSeoMeta({
           </div>
           <div class="flex flex-wrap gap-4 mt-5 md:mt-10 justify-center">
             <NuxtLink external to="https://app.shaqapp.com/">
-              <NuxtImg src="/appstore.png" />
+              <NuxtImg src="/appstore.webp" />
             </NuxtLink>
             <NuxtLink external to="https://app.shaqapp.com/">
-              <NuxtImg src="/playstore.png" />
+              <NuxtImg src="/playstore.webp" />
             </NuxtLink>
           </div>
         </div>
-        <NuxtImg src="/vendor-app.png" />
+        <NuxtImg src="/vendor-app.webp" />
       </div>
     </div>
 
@@ -63,7 +63,7 @@ useSeoMeta({
     <div
       class="container flex flex-col lg:gap-x-16 xl:gap-x-20 gap-y-8 gap-x-8 md:justify-center md:grid md:grid-cols-[auto_max-content]"
     >
-      <NuxtImg src="/payment.png" />
+      <NuxtImg src="/payment.webp" />
       <div>
         <h2>Why do business with ShaQApp</h2>
         <div class="mt-7 md:mt-14 gap-y-6 md:gap-y-12 grid">

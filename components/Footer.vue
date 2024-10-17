@@ -8,7 +8,7 @@
         <!-- logo, description, cta -->
         <div class="space-y-6">
           <NuxtLink to="/">
-            <NuxtImg src="/shaq-app-logo-light.png" alt="ShaQApp Logo" />
+            <NuxtImg src="/shaq-app-logo-light.webp" alt="ShaQApp Logo" />
           </NuxtLink>
           <p>Life made easy</p>
           <Button size="sm" class="bg-white text-primary hover:bg-white/90"
@@ -107,10 +107,10 @@
           <!-- store links -->
           <div class="grid gap-y-4">
             <NuxtLink external to="https://app.shaqapp.com/">
-              <NuxtImg src="/appstore.png" />
+              <NuxtImg src="/appstore.webp" />
             </NuxtLink>
             <NuxtLink external to="https://app.shaqapp.com/">
-              <NuxtImg src="/playstore.png" />
+              <NuxtImg src="/playstore.webp" />
             </NuxtLink>
           </div>
         </div>

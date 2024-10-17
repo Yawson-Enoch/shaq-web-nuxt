@@ -55,7 +55,7 @@ useSeoMeta({
 
     <!-- image - form -->
     <div class="grid md:grid-cols-2 gap-x-8 lg:gap-x-20">
-      <NuxtImg src="/map.png" class="max-md:hidden" />
+      <NuxtImg src="/map.webp" class="max-md:hidden" />
 
       <div>
         <h3>Send us a message</h3>
@@ -90,7 +90,7 @@ useSeoMeta({
                   <div
                     class="h-10 md:h-14 rounded-md md:rounded-[6px] bg-[#F3F3EF] px-6 py-2 flex items-center gap-x-2 justify-center"
                   >
-                    <NuxtImg src="/ghana.png" />
+                    <NuxtImg src="/ghana.webp" />
                     <p>+233</p>
                   </div>
                   <Input v-model="phone" v-bind="phoneField" />

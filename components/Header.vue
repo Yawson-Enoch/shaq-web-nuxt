@@ -58,7 +58,7 @@ watch(
       <NuxtLink to="/">
         <NuxtImg
           :src="
-            hasDarkBg ? '/shaq-app-logo-light.png' : '/shaq-app-logo-dark.png'
+            hasDarkBg ? '/shaq-app-logo-light.webp' : '/shaq-app-logo-dark.webp'
           "
           alt="ShaQApp Logo"
         />
@@ -103,7 +103,7 @@ watch(
               <!-- logo -->
               <SheetClose>
                 <NuxtLink to="/">
-                  <NuxtImg src="/shaq-app-logo-dark.png" alt="ShaQApp Logo" />
+                  <NuxtImg src="/shaq-app-logo-dark.webp" alt="ShaQApp Logo" />
                 </NuxtLink>
               </SheetClose>
             </div>

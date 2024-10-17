@@ -26,7 +26,7 @@ const onSubmit = handleSubmit((values) => {
   <form
     novalidate
     @submit.prevent="onSubmit"
-    class="relative content-[''] after:absolute after:inset-0 after:-z-10 after:bg-[#ACE4AA] bg-[url('/pattern.png')] pt-8 md:pt-16 pb-20 md:pb-40"
+    class="relative content-[''] after:absolute after:inset-0 after:-z-10 after:bg-[#ACE4AA] bg-[url('/pattern.webp')] pt-8 md:pt-16 pb-20 md:pb-40"
   >
     <div
       class="container flex flex-col items-center justify-center gap-y-8 md:gap-y-16"
