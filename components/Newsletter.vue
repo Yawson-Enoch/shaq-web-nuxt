@@ -20,6 +20,9 @@ const [email, emailField] = defineField('email');
 const onSubmit = handleSubmit((values) => {
   console.log(values);
 });
+
+/* using unique ids */
+const id = useId();
 </script>
 
 <template>
@@ -39,6 +42,7 @@ const onSubmit = handleSubmit((values) => {
             class="md:h-16 md:px-8 flex rounded-sm bg-[#f0f0eb] w-[min(100%,40.1875rem)] placeholder:text-[#606060] placeholder:text-sm md:placeholder:text-xl text-sm md:text-xl"
             placeholder="Enter your email address"
             type="email"
+            :id="id + '-email'"
             v-model="email"
             v-bind="emailField"
           />

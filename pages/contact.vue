@@ -35,6 +35,8 @@ const onSubmit = handleSubmit((values) => {
   resetForm();
 });
 
+const id = useId();
+
 useSeoMeta({
   title: 'Contact Us',
   description:
@@ -69,23 +71,33 @@ useSeoMeta({
           <div class="space-y-4 md:space-y-8">
             <div class="space-y-2">
               <div class="space-y-2">
-                <Label>Full name</Label>
-                <Input v-model="fullName" v-bind="fullNameField" />
+                <Label :for="id + '-fullName'">Full name</Label>
+                <Input
+                  type="text"
+                  :id="id + '-fullName'"
+                  v-model="fullName"
+                  v-bind="fullNameField"
+                />
               </div>
               <div class="text-red-500">{{ errors.fullName }}</div>
             </div>
 
             <div class="space-y-2">
               <div class="space-y-2">
-                <Label>Email</Label>
-                <Input v-model="email" v-bind="emailField" />
+                <Label :for="id + '-email'">Email</Label>
+                <Input
+                  type="email"
+                  :id="id + '-email'"
+                  v-model="email"
+                  v-bind="emailField"
+                />
               </div>
               <div class="text-red-500">{{ errors.email }}</div>
             </div>
 
             <div class="space-y-2">
               <div class="space-y-2">
-                <Label>Phone Number</Label>
+                <Label :for="id + '-phone'">Phone Number</Label>
                 <div class="flex items-center gap-x-4">
                   <div
                     class="h-10 md:h-14 rounded-md md:rounded-[6px] bg-[#F3F3EF] px-6 py-2 flex items-center gap-x-2 justify-center"
@@ -93,7 +105,12 @@ useSeoMeta({
                     <NuxtImg src="/ghana.webp" />
                     <p>+233</p>
                   </div>
-                  <Input v-model="phone" v-bind="phoneField" />
+                  <Input
+                    type="text"
+                    :id="id + '-phone'"
+                    v-model="phone"
+                    v-bind="phoneField"
+                  />
                 </div>
               </div>
               <div class="text-red-500">{{ errors.phone }}</div>
@@ -101,8 +118,12 @@ useSeoMeta({
 
             <div class="space-y-2">
               <div class="space-y-2">
-                <Label>Message</Label>
-                <Textarea v-model="message" v-bind="messageField" />
+                <Label :for="id + '-message'">Message</Label>
+                <Textarea
+                  :id="id + '-message'"
+                  v-model="message"
+                  v-bind="messageField"
+                />
               </div>
               <div class="text-red-500">{{ errors.message }}</div>
             </div>
