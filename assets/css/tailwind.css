@@ -54,9 +54,17 @@
   *::after {
     @apply border-border;
   }
+
   body {
     @apply min-h-dvh bg-background font-sans text-foreground antialiased;
   }
+
+  p,
+  li,
+  figcaption {
+    @apply text-pretty max-w-prose;
+  }
+
   h1,
   h2,
   h3,

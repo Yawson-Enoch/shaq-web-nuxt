@@ -47,7 +47,7 @@ useSeoMeta({
 <template>
   <main class="py-12 md:py-24 space-y-8 md:space-y-16 container">
     <!-- title - desc -->
-    <div class="grid justify-items-center gap-y-4 md:gap-y-8">
+    <div class="grid justify-items-center gap-y-4 md:gap-y-8 text-center">
       <h2>Contact Us</h2>
       <p class="text-muted-foreground">
         Reach out to us for all your product enquires, order follow up and
@@ -108,6 +108,7 @@ useSeoMeta({
                   <Input
                     type="text"
                     :id="id + '-phone'"
+                    inputmode="numeric"
                     v-model="phone"
                     v-bind="phoneField"
                   />
