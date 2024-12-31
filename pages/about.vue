@@ -1,12 +1,18 @@
 <script setup lang="ts">
+const title = 'About Us';
+const description =
+  'We take immense pride in our exceptional software and operations teams that work together seamlessly to build our revolutionary super app.';
+
 definePageMeta({
   layout: false,
 });
 
 useSeoMeta({
-  title: 'About Us',
-  description:
-    'We take immense pride in our exceptional software and operations teams that work together seamlessly to build our revolutionary super app.',
+  title,
+  description,
+
+  ogTitle: title,
+  ogDescription: description,
 });
 </script>
 

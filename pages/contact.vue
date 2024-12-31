@@ -37,10 +37,16 @@ const onSubmit = handleSubmit((values) => {
 
 const id = useId();
 
+const title = 'Contact Us';
+const description =
+  'Reach out to us for all your product enquires, order follow up and enquiries on working with us.';
+
 useSeoMeta({
-  title: 'Contact Us',
-  description:
-    'Reach out to us for all your product enquires, order follow up and enquiries on working with us.',
+  title,
+  description,
+
+  ogTitle: title,
+  ogDescription: description,
 });
 </script>
 

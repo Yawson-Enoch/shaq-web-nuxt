@@ -1,5 +1,9 @@
 <script setup lang="ts">
+/* siteUrl fallback to localhost to preview og on localhost */
 const config = useRuntimeConfig();
+const reqUrl = useRequestURL();
+const siteUrl =
+  config.public.siteUrl || `http://localhost:${reqUrl.port || 3000}`;
 
 const title = 'ShaQApp';
 const description =
@@ -14,23 +18,22 @@ useHead({
 });
 
 useSeoMeta({
-  titleTemplate: (title) =>
-    title === 'ShaQApp' ? title : `${title} | ShaQApp`,
+  titleTemplate: (t) => (t === title ? t : `${t} | ${title}`),
 
   title,
   description,
 
   ogTitle: title,
   ogDescription: description,
-  ogImage: `${config.public.siteUrl}/og-image.png`,
+  ogImage: `${siteUrl}/og-image.png`,
   ogImageAlt: 'ShaQApp Website',
 
-  /* twitter:image is same as og:image 
-  ref: https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/abouts-cards
-  */
-  twitterSite: '@gybex_enock',
   twitterCreator: '@gybex_enock',
   twitterCard: 'summary_large_image',
+
+  themeColor: '#ffffff',
+  /* prevent page indexing in search engines */
+  robots: 'noindex, nofollow',
 });
 </script>
 

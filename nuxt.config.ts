@@ -1,5 +1,3 @@
-const siteUrl = `http://localhost:3000`;
-
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
@@ -10,7 +8,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/image',
     '@vueuse/nuxt',
-    '@nuxtjs/robots',
   ],
 
   /* SSG __ pregenerate all pages at build time */
@@ -18,12 +15,10 @@ export default defineNuxtConfig({
     '/**': { prerender: true },
   },
 
-  /* prevent pages from being indexed by search engines */
-  site: { indexable: false },
-
   runtimeConfig: {
     public: {
-      siteUrl,
+      /* this gets overridden when NUXT_PUBLIC_SITE_URL env var is set */
+      siteUrl: '',
     },
   },
 

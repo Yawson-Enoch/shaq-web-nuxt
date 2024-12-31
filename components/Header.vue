@@ -94,7 +94,7 @@ watch(
           </Button>
         </SheetTrigger>
         <SheetContent class="md:hidden" side="left">
-          <SheetHeader className="sr-only">
+          <SheetHeader class="sr-only">
             <SheetTitle>Nav menu</SheetTitle>
             <SheetDescription>Mobile navigation menu</SheetDescription>
           </SheetHeader>

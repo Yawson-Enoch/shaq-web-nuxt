@@ -8,10 +8,16 @@ import {
 
 const isShowMore = ref(false);
 
+const title = 'Riders';
+const description =
+  'Delivering smiles and cashing in on your journey—join us as a rider and make every delivery a rewarding adventure!';
+
 useSeoMeta({
-  title: 'Riders',
-  description:
-    'Delivering smiles and cashing in on your journey—join us as a rider and make every delivery a rewarding adventure!',
+  title,
+  description,
+
+  ogTitle: title,
+  ogDescription: description,
 });
 </script>
 

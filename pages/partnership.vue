@@ -1,8 +1,14 @@
 <script setup lang="ts">
+const title = 'Partnership';
+const description =
+  'Join ShaQApp today to take your retail shop, pharmacy, restaurant, or grocery store online with ease. Our user-friendly e-commerce platform helps you grow your business and connect with a supportive community that’s ready to help you succeed.';
+
 useSeoMeta({
-  title: 'Partnership',
-  description:
-    'Join ShaQApp today to take your retail shop, pharmacy, restaurant, or grocery store online with ease. Our user-friendly e-commerce platform helps you grow your business and connect with a supportive community that’s ready to help you succeed.',
+  title,
+  description,
+
+  ogTitle: title,
+  ogDescription: description,
 });
 </script>
 
